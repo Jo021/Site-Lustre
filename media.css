@@ -1,0 +1,30 @@
+@media screen and (max-width: 900px){
+   header {
+       flex-direction: column;
+   }
+   ul {
+       text-align: center;
+   }
+   li {
+       padding: -10px;
+   }
+    main {
+        flex-direction: column;
+    }
+    h2 {
+        font-size: 38px
+    }
+    form {
+        margin: 0 auto;
+        width: 100%;
+    }
+    input {
+        align-self: center;
+    }
+    li > img {
+        display: none;
+    }
+    article > img {
+        width: 500px;
+    }
+}

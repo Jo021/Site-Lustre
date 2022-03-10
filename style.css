@@ -1,0 +1,134 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400&display=swap');
+
+   
+   :root {
+       --fonte-cabeçalho: " fredoka", sans-serif; 
+   }
+
+* {
+    font-family: 'Fredoka', sans-serif, arial;
+    margin: 0;
+}
+html, body{
+    background-color: rgb(0, 0, 0);
+    font-family:  arial, 'Fredoka', sans-serif;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px ;
+    background-color: black;
+}
+#title > a{
+    
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    color: white;
+     
+}
+li {
+    display: inline-block;
+    margin: 15px;
+    padding: 10px;
+    color: white;
+    
+    
+}
+li > a {
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 13px;
+
+}
+li > a:hover {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    transition: 0.4s all;
+    background-color:  #ecb100;
+    padding: 8px;
+    border-radius: 13px;
+
+}
+span {
+    color: #E9D8A6;
+}
+h1 {
+    font-weight: bolder;
+    font-size: 2.2em;
+    
+}
+h1 > a {
+    text-decoration: none;
+    color: white;
+}
+main {
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+aside {
+    padding-top: 50px;
+}
+h2 {
+    font-size: 45px;
+    font-family: var(--fonte-cabeçalho);
+    line-height: 10px;
+    padding:20px 10px 10px 50px;
+}
+p {
+    line-height: 20px;
+    max-width: 500px;
+    font-family: cursive;
+    padding: 30px 20px 20px 50px;
+}
+article > img{
+    width: 900px;
+    
+}
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: #E9D8A6;
+    color: black;
+    font-weight: bold;
+}
+form [type="submit"]:hover{
+    height: 50px;
+    width: 50%;
+    background-color: #0bfd33;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding:30px 20px 20px 50px;
+
+}
+input {
+   
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+
+}
+
+
+
+
+ 
+
+
+ 
+
